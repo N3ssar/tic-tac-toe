@@ -43,8 +43,8 @@ body {
 .container:before {
   content: "";
   position: fixed;
-  width: 130%;
-  height: 130%;
+  width: 100%;
+  height: 100%;
   opacity: 0.8;
   background: url(./pattern.jpg);
   background-size: cover;
