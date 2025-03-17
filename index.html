@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="tic-tac-toe.png" type="image/x-icon">
+  <!-- Css -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Tic Tac Toe</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="game-controls">
+      <div class="score-board">
+        <div class="player-score">
+          <span class="player-x">Player X</span>
+          <span id="score-x">0</span>
+        </div>
+        <div class="player-score">
+          <span class="player-o">Player O</span>
+          <span id="score-o">0</span>
+        </div>
+      </div>
+      <div class="board-size-control">
+        <label for="board-size">Board Size:</label>
+        <select id="board-size">
+          <option value="3" selected>3x3</option>
+          <option value="4">4x4</option>
+          <option value="5">5x5</option>
+          <option value="6">6x6</option>
+        </select>
+        <button id="apply-size">Apply</button>
+      </div>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
