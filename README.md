@@ -80,7 +80,7 @@ tic-tac-toe/
 - 🌀 Edge (latest)
 
 
-Project Link: [https://github.com/n3ssar/tic-tac-toe](https://github.com/n3ssar/tic-tac-toe)
+Project Link: https://tic-tac-tactic.netlify.app/
 
 ---
 
